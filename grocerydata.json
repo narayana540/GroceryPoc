@@ -1,0 +1,113 @@
+{
+  "fruits" : [
+    {
+      "name" : "Apple",
+      "image" : "../Images/apples.jpg",
+      "price" : 120,
+      "havetopay" : 120,
+      "itemid":"F1",
+      "quantity":1
+    },
+    {
+      "name" : "Banana",
+      "image" : "../Images/banana.jpg",
+      "price" : 35,
+      "havetopay" : 35,
+      "itemid":"F2",
+      "quantity":1
+    },
+    {
+      "name" : "Grapes",
+      "image" : "../Images/grapes.jpg",
+      "price" : 45,
+      "havetopay" : 45,
+      "itemid":"F3",
+      "quantity":1
+    },
+    {
+      "name" : "Pineapple",
+      "image" : "../Images/pineapple.jpg",
+      "price" : 200,
+      "havetopay":200,
+      "itemid":"F4",
+      "quantity":1
+    }
+  ],
+  "veggie" : [
+    {
+      "name" : "Tomato",
+      "image" : "../Images/tomatoes.jpg",
+      "price" : 70,
+      "havetopay" : 70,
+      "itemid":"V1",
+      "quantity":1
+    },
+    {
+      "name" : "Capsiccum",
+      "image" : "../Images/capisicum.jpg",
+      "price" : 100,
+      "havetopay" : 100,
+      "itemid":"V2",
+      "quantity":1
+    },
+    {
+      "name" : "Onion",
+      "image" : "../Images/onions.jpg",
+      "price" : 85,
+      "havetopay" : 85,
+      "itemid":"V3",
+      "quantity":1
+    },
+    {
+      "name" : "Califlower",
+      "image" : "../Images/califlower.jpg",
+      "price" : 50,
+      "havetopay" : 50,
+      "itemid":"V4",
+      "quantity":1
+    },
+    {
+      "name" : "Carrot",
+      "image" : "../Images/carrots.jpg",
+      "price" : 50,
+      "havetopay" : 50,
+      "itemid":"V5",
+      "quantity":1
+    }
+  ],
+  "meat":[
+    {
+      "name" : "Chicken",
+      "image" : "../Images/meat.jpg",
+      "price" : 230,
+      "havetopay" : 50,
+      "itemid":"M1",
+      "quantity":1
+    },
+    {
+      "name" : "Fish",
+      "image" : "../Images/fish.jpg",
+      "price" : 300,
+      "havetopay" : 50,
+      "itemid":"M2",
+      "quantity":1
+    },
+    {
+      "name" : "Prawns",
+      "image" : "../Images/prawns.jpg",
+      "price" : 250,
+      "havetopay" : 50,
+      "itemid":"M3",
+      "quantity":1
+    },
+    {
+      "name" : "Mutton",
+      "image" : "../Images/meat.jpg",
+      "price" : 500,
+      "havetopay" : 50,
+      "itemid":"M4",
+      "quantity":1
+    }
+  ]
+  
+}

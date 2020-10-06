@@ -1,0 +1,75 @@
+.left {
+    padding: 0px !important;
+    background-color: #a4d792;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif !important;
+}
+.right {
+    padding: 0px !important;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif !important;
+}
+.greeting {
+    border-right: none !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    padding: 30px;
+    height: 600px;
+    width: 500px;
+    background-color: #a4d792 !important;
+}
+.logincard {
+    border-left: none !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    padding: 30px;
+    height: 600px;
+    width: 500px;
+}
+
+.centerdata {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.small {
+    display: none;
+    margin: 0px !important;
+}
+
+.bttn {
+    margin: 20px 0px;
+    padding: 10px 30px !important;
+    background-color: #333333 !important;
+    color:white
+}
+
+.hide {
+    display: none !important;
+}
+.cursor {
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    .logincard {
+        height: 100% !important;
+        width: 100% !important;
+        border: none !important;
+    }
+    .small {
+        display: block;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        border: 3px solid #69bd32;
+        margin: 10px auto !important;
+    }
+}
+

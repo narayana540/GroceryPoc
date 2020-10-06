@@ -1,0 +1,92 @@
+.body {
+    margin: 0px !important;
+    scroll-behavior: smooth !important;
+}
+
+.row {
+    margin: 0px !important;
+}
+
+.vh-100 {
+    min-height: 100vh;
+}
+
+.cbtn{
+    background-color: #333333 !important;
+    color:white !important
+}
+
+.btn-sm{
+    margin: 5px !important;
+}
+
+.headingsize {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif !important;
+}
+
+p{
+    margin-bottom: 5px !important;
+}
+
+.smallheading {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif !important;
+}
+
+.normalsize {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif !important;
+}
+
+.error{
+    color:red;
+    font-size: 18px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif !important;
+}
+
+.msg{
+    padding:10px;
+    position: fixed;
+    top:0px;
+    right: 0px;
+    margin: 10px;
+    border: 1px solid black;
+    width: 200px;
+    border-radius: 10px;
+    opacity: 0.9;
+    background-color: #333333;
+    color:white
+}
+
+.w3-animate-right{
+    position: absolute !important;
+}
+
+.opcty{
+    opacity: 0;
+}
+
+a{
+    color: black !important;
+    text-decoration: none !important;
+}
+
+
+.smalllogo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 0px 10px !important;
+}
+
+
+.tbtn{
+    
+    background: transparent !important;
+}

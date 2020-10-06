@@ -1,0 +1,124 @@
+{
+  "cart": [
+    {
+      "name": "Apple",
+      "image": "../Images/apples.jpg",
+      "price": 120,
+      "havetopay": 360,
+      "itemid": "F1",
+      "quantity": 3,
+      "userid": "1",
+      "id": 1
+    },
+    {
+      "name": "Pineapple",
+      "image": "../Images/pineapple.jpg",
+      "price": 200,
+      "havetopay": 200,
+      "itemid": "F4",
+      "quantity": 1,
+      "userid": "1",
+      "id": 2
+    },
+    {
+      "name": "Grapes",
+      "image": "../Images/grapes.jpg",
+      "price": 45,
+      "havetopay": 45,
+      "itemid": "F3",
+      "quantity": 1,
+      "userid": "1",
+      "id": 3
+    },
+    {
+      "name": "Grapes",
+      "image": "../Images/grapes.jpg",
+      "price": 45,
+      "havetopay": 45,
+      "itemid": "F3",
+      "quantity": 1,
+      "userid": "1",
+      "id": 4
+    },
+    {
+      "name": "Grapes",
+      "image": "../Images/grapes.jpg",
+      "price": 45,
+      "havetopay": 45,
+      "itemid": "F3",
+      "quantity": 1,
+      "userid": "1",
+      "id": 5
+    },
+    {
+      "name": "Grapes",
+      "image": "../Images/grapes.jpg",
+      "price": 45,
+      "havetopay": 45,
+      "itemid": "F3",
+      "quantity": 1,
+      "userid": "1",
+      "id": 6
+    },
+    {
+      "name": "Grapes",
+      "image": "../Images/grapes.jpg",
+      "price": 45,
+      "havetopay": 45,
+      "itemid": "F3",
+      "quantity": 1,
+      "userid": "1",
+      "id": 7
+    },
+    {
+      "name": "Grapes",
+      "image": "../Images/grapes.jpg",
+      "price": 45,
+      "havetopay": 450,
+      "itemid": "F3",
+      "quantity": 10,
+      "userid": "1",
+      "id": 8
+    },
+    {
+      "name": "Grapes",
+      "image": "../Images/grapes.jpg",
+      "price": 45,
+      "havetopay": 450,
+      "itemid": "F3",
+      "quantity": 10,
+      "userid": "1",
+      "id": 9
+    },
+    {
+      "name": "Grapes",
+      "image": "../Images/grapes.jpg",
+      "price": 45,
+      "havetopay": 450,
+      "itemid": "F3",
+      "quantity": 10,
+      "userid": "1",
+      "id": 10
+    },
+    {
+      "name": "Grapes",
+      "image": "../Images/grapes.jpg",
+      "price": 45,
+      "havetopay": 45,
+      "itemid": "F3",
+      "quantity": 1,
+      "userid": "1",
+      "id": 11
+    },
+    {
+      "name": "Onion",
+      "image": "../Images/onions.jpg",
+      "price": 85,
+      "havetopay": 85,
+      "itemid": "V3",
+      "quantity": 1,
+      "userid": "1",
+      "id": 12
+    }
+  ]
+}

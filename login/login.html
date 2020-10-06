@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="../global.css">
+    <title>Grocer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="../Images/logo/favicon.png" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="d-none d-md-block col-md-6 left">
+            <div class="row vh-100">
+                <div class="my-auto ml-auto card greeting">
+                    <img src="../Images/logo/logo.png" class="logo centerdata">
+                    <p class="centerdata smallheading">Welcome !</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-12 right">
+            <div class="row vh-100">
+                <div class="my-auto card logincard">
+                    <img src="../Images/logo/logo.png" class="small" />
+                    <p class="centerdata smallheading" id="label"></p>
+                    <form>
+                        <div id="registerdiv1">
+                            <p class="normalsize">Full Name</p>
+                            <input class="form-control" type="text" id="fullname" onkeypress="change()"
+                                placeholder="enter your Full name">
+                            <p class="normalsize">Mobile Number</p>
+                            <input class="form-control" type="text" id="mobile" onkeypress="change()"
+                                placeholder="enter your mobile number">
+                        </div>
+                        <p class="normalsize">User name</p>
+                        <input class="form-control" type="text" id="username" onkeypress="change()"
+                            placeholder="enter your username">
+                        <p class="normalsize">Password</p>
+                        <input class="form-control" type="password" id="password" onkeypress="change()"
+                            placeholder="enter your password">
+                        <div id="registerdiv">
+                            <p class="normalsize">Confirm Password</p>
+                            <input class="form-control" type="password" id="cpassword" onkeypress="change()"
+                                placeholder="enter your password">
+                            <p id="errorMsg" class="error"></p>
+                        </div>
+                    </form>
+                    <button class="btn bttn" onclick="loginClick()" id="loginbtn">Login</button>
+                    <button class="btn bttn" id="registerbtn" onclick="registerClick()">Register</button>
+
+
+                    <div class="row">
+                        <a class="ml-auto cursor" onclick="register_display()" id="login">NewUser Register</a>
+                        <a class="ml-auto cursor" id="register" onclick="login_display()">Already registered Login</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="../services.js"></script>
+    <script type="text/javascript" src="login.js"></script>
+
+</body>
+
+</html>
